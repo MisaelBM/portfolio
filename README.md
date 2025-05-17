@@ -1,4 +1,4 @@
-# Portfólio - Misael BM
+# Portfólio - Misael Morgado
 
 Bem-vindo ao meu portfólio! Este é o meu espaço pessoal na web, onde apresento meus projetos, habilidades e paixão por criar soluções digitais inovadoras. Aqui você encontrará uma seleção dos meus melhores trabalhos, desde desenvolvimento web até outros projetos criativos.
 
