@@ -48,6 +48,16 @@ a {
     color: var(--text-light);
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background: #F4F4F4;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 10px;
+}
+
 .logo {
     display: flex;
     align-items: center;
@@ -142,7 +152,7 @@ a {
 }
 
 .contact-icon:hover {
-    color: var(--primary);
+    color: var(--success);
     transform: translateY(-10px);
 }
 
@@ -182,29 +192,11 @@ a {
     transition: 0.3s;
 }
 
-.orange:hover {
+.card:hover {
     transform: translateY(-10px);
-    color: rgb(255, 94, 0);
-    box-shadow: 2px 2px 5px black;
-}
-
-.blue:hover {
-    transform: translateY(-10px);
-    color: rgb(0, 94, 255);
-    box-shadow: 2px 2px 5px black;
-}
-
-.yellow:hover {
-    transform: translateY(-10px);
-    color: rgb(255, 255, 0);
-    box-shadow: 2px 2px 5px black;
-}
-
-.white:hover {
-    transform: translateY(-10px);
-    color: rgb(255, 255, 255);
+    color: rgb(0, 132, 255);
     background-color: black;
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px var(--primary);
 }
 
 .card-icon {
@@ -266,16 +258,22 @@ a {
 
 .project:hover {
     transform: translateY(-5px);
-    color: var(--primary);
-    box-shadow: 2px 2px 5px black;
+    box-shadow: 2px 2px 5px var(--purple);
 }
 
 .title-project {
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 280px;
     font-size: 25px;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .title-skills {
     font-size: 20px;
+    font-weight: 600;
     margin-top: 1rem;
 }
 
